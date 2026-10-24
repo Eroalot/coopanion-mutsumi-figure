@@ -1,0 +1,497 @@
+{
+  "about": {
+    "zh": "浅绿长发、呆萌棕色大眼睛的小小若叶睦，可穿蓝灰格纹常服或红帽黑红演出服。",
+    "en": "A tiny chibi Mutsumi with pale green hair and sleepy brown eyes, in a plaid casual dress or a red-beret black-and-red stage costume."
+  },
+  "author": "Eroalot",
+  "export": "createMutsumiBody",
+  "can": {
+    "walk": true
+  },
+  "id": "mutsumi-casual",
+  "manifest": 2,
+  "credits": [
+    {
+      "role": "Character",
+      "name": "BanG Dream! / Ave Mujica"
+    },
+    {
+      "role": "Artwork",
+      "name": "User reference and generated illustration"
+    }
+  ],
+  "vocab": [
+    {
+      "id": "neutral",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "平静"
+        ]
+      },
+      "about": {
+        "en": "Performs the neutral expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "happy",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "开心",
+          "高兴"
+        ]
+      },
+      "about": {
+        "en": "Performs the happy expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "wink",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "眨眼"
+        ]
+      },
+      "about": {
+        "en": "Performs the wink expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "love",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "喜欢",
+          "爱心"
+        ]
+      },
+      "about": {
+        "en": "Performs the love expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "shy",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "害羞"
+        ]
+      },
+      "about": {
+        "en": "Performs the shy expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "surprised",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "惊讶",
+          "吃惊"
+        ]
+      },
+      "about": {
+        "en": "Performs the surprised expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "angry",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "生气"
+        ]
+      },
+      "about": {
+        "en": "Performs the angry expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "sad",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "难过",
+          "伤心"
+        ]
+      },
+      "about": {
+        "en": "Performs the sad expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "sleepy",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "犯困",
+          "困"
+        ]
+      },
+      "about": {
+        "en": "Performs the sleepy expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "thinking",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "思考",
+          "想想"
+        ]
+      },
+      "about": {
+        "en": "Performs the thinking expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "worried",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "担心",
+          "着急"
+        ]
+      },
+      "about": {
+        "en": "Performs the worried expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "flustered",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "慌张",
+          "窘"
+        ]
+      },
+      "about": {
+        "en": "Performs the flustered expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "cry",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "大哭",
+          "哭"
+        ]
+      },
+      "about": {
+        "en": "Performs the cry expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "confused",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "疑惑",
+          "问号"
+        ]
+      },
+      "about": {
+        "en": "Performs the confused expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "stand",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "站起",
+          "站"
+        ]
+      },
+      "about": {
+        "en": "Performs the stand expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "jump",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "跳",
+          "跳起来"
+        ]
+      },
+      "about": {
+        "en": "Performs the jump expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 1.2
+    },
+    {
+      "id": "hop",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "小跳",
+          "蹦"
+        ]
+      },
+      "about": {
+        "en": "Performs the hop expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.9
+    },
+    {
+      "id": "look",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "张望",
+          "看看"
+        ]
+      },
+      "about": {
+        "en": "Performs the look expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 2.7
+    },
+    {
+      "id": "turn",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "转身"
+        ]
+      },
+      "about": {
+        "en": "Performs the turn expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.4
+    },
+    {
+      "id": "nod",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "点头"
+        ]
+      },
+      "about": {
+        "en": "Performs the nod expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.8
+    },
+    {
+      "id": "shake",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "摇头"
+        ]
+      },
+      "about": {
+        "en": "Performs the shake expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.8
+    },
+    {
+      "id": "spin",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "转圈"
+        ]
+      },
+      "about": {
+        "en": "Performs the spin expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.8
+    },
+    {
+      "id": "sit",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "坐下",
+          "坐"
+        ]
+      },
+      "about": {
+        "en": "Performs the sit expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.8,
+      "lasting": true
+    },
+    {
+      "id": "sleep",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "睡觉",
+          "睡"
+        ]
+      },
+      "about": {
+        "en": "Performs the sleep expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 0.8,
+      "lasting": true
+    },
+    {
+      "id": "dizzy",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "晕",
+          "转晕"
+        ]
+      },
+      "about": {
+        "en": "Performs the dizzy expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 3.2
+    },
+    {
+      "id": "walk",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "走走",
+          "散步"
+        ]
+      },
+      "about": {
+        "en": "Performs the walk expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 12
+    },
+    {
+      "id": "run",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "跑",
+          "跑起来"
+        ]
+      },
+      "about": {
+        "en": "Performs the run expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 12
+    },
+    {
+      "id": "bow",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "鞠躬"
+        ]
+      },
+      "about": {
+        "en": "Performs the bow expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 1.7
+    },
+    {
+      "id": "shiver",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "发抖",
+          "哆嗦"
+        ]
+      },
+      "about": {
+        "en": "Performs the shiver expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 1.9
+    },
+    {
+      "id": "dance",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "跳舞",
+          "摇摆"
+        ]
+      },
+      "about": {
+        "en": "Performs the dance expression or motion using the desktop pet body kit and the illustrated figure."
+      },
+      "seconds": 3.4
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "zh": "常服",
+        "en": "Casual"
+      },
+      "pick": {
+        "outfit": "casual"
+      },
+      "id": "casual"
+    },
+    {
+      "name": {
+        "zh": "演出服",
+        "en": "Stage"
+      },
+      "pick": {
+        "outfit": "stage"
+      },
+      "id": "stage"
+    }
+  ],
+  "sounds": {},
+  "entry": "figure.js",
+  "name": {
+    "zh": "若叶睦",
+    "en": "Mutsumi"
+  },
+  "version": "0.2.0",
+  "axes": [
+    {
+      "name": {
+        "zh": "服装",
+        "en": "Outfit"
+      },
+      "options": [
+        {
+          "name": {
+            "zh": "常服",
+            "en": "Casual"
+          },
+          "thumb": "mutsumi.png",
+          "id": "casual"
+        },
+        {
+          "name": {
+            "zh": "演出服",
+            "en": "Stage"
+          },
+          "thumb": "mutsumi-stage.png",
+          "id": "stage"
+        }
+      ],
+      "id": "outfit"
+    }
+  ],
+  "thumb": "mutsumi.png",
+  "api": 2,
+  "license": "See RIGHTS.md"
+}
