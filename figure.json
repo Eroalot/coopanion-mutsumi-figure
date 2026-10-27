@@ -1,9 +1,9 @@
 {
   "about": {
-    "zh": "浅绿长发、呆萌棕色大眼睛的小小若叶睦，可穿蓝灰格纹常服或红帽黑红演出服。",
-    "en": "A tiny chibi Mutsumi with pale green hair and sleepy brown eyes, in a plaid casual dress or a red-beret black-and-red stage costume."
+    "zh": "浅绿长发、棕色大眼睛的Q版若叶睦，可切换蓝灰格纹常服、红帽黑红演出服，以及配墨绿蝴蝶结与奶油色蕾丝领的深蓝格纹裙。",
+    "en": "A tiny chibi Mutsumi with pale green hair and brown eyes, wearing a casual plaid dress, a red-beret stage outfit, or a navy tartan dress with a teal bow and cream lace collar."
   },
-  "author": "Eroalot",
+  "author": "Local custom figure",
   "export": "createMutsumiBody",
   "can": {
     "walk": true
@@ -433,6 +433,97 @@
         "en": "Performs the dance expression or motion using the desktop pet body kit and the illustrated figure."
       },
       "seconds": 3.4
+    },
+    {
+      "id": "smug",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "得意"
+        ]
+      },
+      "about": {
+        "en": "A content closed-eye expression with a small lopsided smile."
+      },
+      "seconds": 1.8
+    },
+    {
+      "id": "pout",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "嘟嘴"
+        ]
+      },
+      "about": {
+        "en": "A small pursed mouth and rosy cheeks."
+      },
+      "seconds": 1.8
+    },
+    {
+      "id": "determined",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "认真"
+        ]
+      },
+      "about": {
+        "en": "Focused eyebrows and a firm small mouth."
+      },
+      "seconds": 1.8
+    },
+    {
+      "id": "scared",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "害怕"
+        ]
+      },
+      "about": {
+        "en": "An open mouth, sweat bead and the body kit trembling effect."
+      },
+      "seconds": 1.8
+    },
+    {
+      "id": "excited",
+      "kind": "expression",
+      "names": {
+        "zh": [
+          "期待"
+        ]
+      },
+      "about": {
+        "en": "Bright eye highlights, rosy cheeks and an open mouth."
+      },
+      "seconds": 1.8
+    },
+    {
+      "id": "wave",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "招手"
+        ]
+      },
+      "about": {
+        "en": "The body kit wave greeting: a short swaying gesture."
+      },
+      "seconds": 1.6
+    },
+    {
+      "id": "flap",
+      "kind": "motion",
+      "names": {
+        "zh": [
+          "扑腾"
+        ]
+      },
+      "about": {
+        "en": "The body kit flap: a short fluttering jump and sway."
+      },
+      "seconds": 1.6
     }
   ],
   "presets": [
@@ -455,6 +546,16 @@
         "outfit": "stage"
       },
       "id": "stage"
+    },
+    {
+      "id": "navy",
+      "name": {
+        "zh": "深蓝格纹裙",
+        "en": "Navy Tartan"
+      },
+      "pick": {
+        "outfit": "navy"
+      }
     }
   ],
   "sounds": {},
@@ -463,7 +564,7 @@
     "zh": "若叶睦",
     "en": "Mutsumi"
   },
-  "version": "0.2.0",
+  "version": "0.3.0",
   "axes": [
     {
       "name": {
@@ -486,12 +587,19 @@
           },
           "thumb": "mutsumi-stage.png",
           "id": "stage"
+        },
+        {
+          "id": "navy",
+          "name": {
+            "zh": "深蓝格纹裙",
+            "en": "Navy Tartan"
+          },
+          "thumb": "mutsumi-navy.png"
         }
       ],
       "id": "outfit"
     }
   ],
   "thumb": "mutsumi.png",
-  "api": 2,
-  "license": "See RIGHTS.md"
+  "api": 2
 }
